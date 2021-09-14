@@ -240,24 +240,16 @@ def display_five_records(raw_json_data):
 def display_raw_data(df):
     """Displays raw data, if requested by user"""
 
-    row_num = df.shape[0]
-   
-    for index in range(0, row_num, 5):
+    data = 0
 
-        print('\nCurrently showing {} records of raw data.'.format(index))
-        print(''*40)
+    while True:
+        answer = input('Would you like to see 5 lines of raw data? Enter yes or no: ')
+        if answer.lower() == 'yes':
+            print(df[data : data+5])
+            data += 5
 
-        see_raw_data = input("\nWould you like to see raw data in groups of five at a time? Enter 'yes' or 'no' \n")
-
-        if see_raw_data.lower() != 'yes':
-            break      
-               
-        raw_data = df.iloc[index: index + 5].to_json(orient='records', lines=True).splitlines()
-       
-        display_five_records(raw_data)
-
-        index += 5
-        print('*'*40)    
+        else:
+            break    
 
 def main():
     while True:
