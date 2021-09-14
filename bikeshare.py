@@ -238,7 +238,11 @@ def display_five_records(raw_json_data):
             print(json_data)
 
 def display_raw_data(df):
-    """Displays raw data, if requested by user"""
+    """
+    Asks user if they want to see 5 lines of raw data.
+    Returns the 5 lines of raw data if user inputs `yes`. Iterate until user response with a `no`
+
+    """
 
     data = 0
 
