@@ -10,7 +10,7 @@
 This is a command line python program that analyzes Bikeshare data using Python programming language and NumPy and Pandas packages by asking user to enter responses. This project uses csv data files from Bikeshare in Chicago, New York City and Washington provided by Udacity during the data analysis project
 
 ### Files used
-Include the files used
+bikeshare.py
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
