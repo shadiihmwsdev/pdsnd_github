@@ -12,6 +12,13 @@ This is a command line python program that analyzes Bikeshare data using Python 
 ### Files used
 bikeshare.py
 
+### How to run on your local machine
+1. Download and install Anaconda3 which comes with Python, NumPy and Pandas
+2. If you have git, clone the project or download the zip file
+3. Open Anaconda3 prompt and navigate into the projects folder
+4. Run ```python bikeshare.py```
+
+
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
 
