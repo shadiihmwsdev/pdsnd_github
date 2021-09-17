@@ -231,7 +231,9 @@ def user_stats(df):
     print('-'*40)
 
 def display_five_records(raw_json_data):
-    
+    """
+    Helper function to convert DataFrame into JSON data and print
+    """
     for row_data in raw_json_data:
             parsed_data = js.loads(row_data)
             json_data = js.dumps(parsed_data, indent=4) 
