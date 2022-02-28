@@ -19,8 +19,3 @@ bikeshare.py
 4. Run ```python bikeshare.py```
 
 
-### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
-* This repo was forked from https://github.com/udacity/pdsnd_github
-
